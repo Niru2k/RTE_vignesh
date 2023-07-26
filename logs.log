@@ -1,0 +1,453 @@
+[INFO]: 25-07-2023 15:19:19 - Signup api called successfully
+[ERROR]: 25-07-2023 15:19:19 - error:'Invalid Format' status:400
+[INFO]: 25-07-2023 15:19:58 - Signup api called successfully
+[INFO]: 25-07-2023 15:19:58 - message:'sign up successfull' status:200
+[INFO]: 25-07-2023 15:20:08 - Signup api called successfully
+[ERROR]: 25-07-2023 15:20:08 - error:'user already exist' status:400
+[INFO]: 25-07-2023 15:20:29 - Signup api called successfully
+[ERROR]: 25-07-2023 15:20:29 - error:'Invalid phone number format' status:400
+[INFO]: 25-07-2023 15:20:36 - Signup api called successfully
+[ERROR]: 25-07-2023 15:20:36 - error:'Invalid phone number format' status:400
+[INFO]: 25-07-2023 15:20:42 - Signup api called successfully
+[INFO]: 25-07-2023 15:20:42 - message:'sign up successfull' status:200
+[INFO]: 25-07-2023 15:20:55 - Signup api called successfully
+[ERROR]: 25-07-2023 15:20:55 - error:'Password should be more than 8 characters' status:400
+[INFO]: 25-07-2023 15:21:06 - Signup api called successfully
+[ERROR]: 25-07-2023 15:21:06 - error:'Invalid Email Format' status:400
+[INFO]: 25-07-2023 15:21:13 - Signup api called successfully
+[ERROR]: 25-07-2023 15:21:13 - error:'Username field should not be empty' status:400
+[INFO]: 25-07-2023 15:21:14 - Signup api called successfully
+[ERROR]: 25-07-2023 15:21:14 - error:'Username field should not be empty' status:400
+[INFO]: 25-07-2023 15:21:15 - Signup api called successfully
+[ERROR]: 25-07-2023 15:21:15 - error:'Username field should not be empty' status:400
+[INFO]: 25-07-2023 15:21:15 - Signup api called successfully
+[ERROR]: 25-07-2023 15:21:15 - error:'Username field should not be empty' status:400
+[INFO]: 25-07-2023 15:21:16 - Signup api called successfully
+[ERROR]: 25-07-2023 15:21:16 - error:'Username field should not be empty' status:400
+[INFO]: 25-07-2023 15:21:24 - Signup api called successfully
+[ERROR]: 25-07-2023 15:21:24 - error:'Invalid phone number format' status:400
+[INFO]: 25-07-2023 15:21:25 - Signup api called successfully
+[ERROR]: 25-07-2023 15:21:25 - error:'Invalid phone number format' status:400
+[INFO]: 25-07-2023 15:21:29 - Signup api called successfully
+[ERROR]: 25-07-2023 15:21:29 - error:'Invalid Format' status:400
+[INFO]: 25-07-2023 15:21:43 - Signup api called successfully
+[INFO]: 25-07-2023 15:21:43 - message:'sign up successfull' status:200
+[INFO]: 25-07-2023 15:21:45 - Signup api called successfully
+[ERROR]: 25-07-2023 15:21:45 - error:'user already exist' status:400
+[INFO]: 25-07-2023 15:22:01 - Signup api called successfully
+[ERROR]: 25-07-2023 15:22:01 - error:'user already exist' status:400
+[INFO]: 25-07-2023 15:22:04 - Signup api called successfully
+[INFO]: 25-07-2023 15:22:04 - message:'sign up successfull' status:200
+[INFO]: 25-07-2023 15:22:05 - Signup api called successfully
+[ERROR]: 25-07-2023 15:22:05 - error:'user already exist' status:400
+[INFO]: 25-07-2023 15:29:24 - Signup api called successfully
+[INFO]: 25-07-2023 15:29:24 - message:'sign up successfull' status:200
+[INFO]: 25-07-2023 15:29:26 - Signup api called successfully
+[ERROR]: 25-07-2023 15:29:26 - error:'user already exist' status:400
+[INFO]: 25-07-2023 15:29:27 - Signup api called successfully
+[ERROR]: 25-07-2023 15:29:27 - error:'user already exist' status:400
+[INFO]: 25-07-2023 15:29:30 - Signup api called successfully
+[ERROR]: 25-07-2023 15:29:30 - error:'Username field should not be empty' status:400
+[INFO]: 25-07-2023 15:29:35 - Signup api called successfully
+[ERROR]: 25-07-2023 15:29:35 - error:'Invalid Email Format' status:400
+[INFO]: 25-07-2023 15:29:39 - Signup api called successfully
+[INFO]: 25-07-2023 15:29:40 - message:'sign up successfull' status:200
+[INFO]: 25-07-2023 15:29:47 - Signup api called successfully
+[ERROR]: 25-07-2023 15:29:47 - error:'Password should be more than 8 characters' status:400
+[INFO]: 25-07-2023 15:29:48 - Signup api called successfully
+[ERROR]: 25-07-2023 15:29:48 - error:'Password should be more than 8 characters' status:400
+[INFO]: 25-07-2023 15:29:50 - Signup api called successfully
+[ERROR]: 25-07-2023 15:29:50 - error:'Password should be more than 8 characters' status:400
+[INFO]: 25-07-2023 15:29:55 - Signup api called successfully
+[ERROR]: 25-07-2023 15:29:55 - error:'Username field should not be empty' status:400
+[INFO]: 25-07-2023 15:30:03 - Signup api called successfully
+[ERROR]: 25-07-2023 15:30:03 - error:'Invalid Email Format' status:400
+[INFO]: 25-07-2023 15:30:09 - Signup api called successfully
+[ERROR]: 25-07-2023 15:30:09 - error:'Invalid Format' status:400
+[INFO]: 25-07-2023 15:30:10 - Signup api called successfully
+[ERROR]: 25-07-2023 15:30:10 - error:'Invalid Format' status:400
+[INFO]: 25-07-2023 15:30:15 - Signup api called successfully
+[ERROR]: 25-07-2023 15:30:16 - error:'user already exist' status:400
+[INFO]: 25-07-2023 15:30:19 - Signup api called successfully
+[INFO]: 25-07-2023 15:30:19 - message:'sign up successfull' status:200
+[INFO]: 25-07-2023 15:41:19 - Signup api called successfully
+[ERROR]: 25-07-2023 15:41:19 - error:'user already exist' status:400
+[INFO]: 25-07-2023 15:42:00 - login api called successfully
+[ERROR]: 25-07-2023 15:42:00 - error:'Invalid Format' status:400
+[INFO]: 25-07-2023 15:42:01 - login api called successfully
+[ERROR]: 25-07-2023 15:42:01 - error:'Invalid Format' status:400
+[INFO]: 25-07-2023 15:42:34 - login api called successfully
+[INFO]: 25-07-2023 15:42:35 - message:'Login Successful' status:200
+[INFO]: 25-07-2023 15:42:41 - login api called successfully
+[ERROR]: 25-07-2023 15:42:41 - error:'login failed' status:400
+[INFO]: 25-07-2023 15:42:58 - login api called successfully
+[ERROR]: 25-07-2023 15:42:59 - error:'Password Not Matching' status:400
+[INFO]: 25-07-2023 15:43:00 - login api called successfully
+[ERROR]: 25-07-2023 15:43:00 - error:'Password Not Matching' status:400
+[INFO]: 25-07-2023 15:43:02 - login api called successfully
+[INFO]: 25-07-2023 15:43:03 - message:'Login Successful' status:200
+[INFO]: 25-07-2023 15:43:08 - login api called successfully
+[ERROR]: 25-07-2023 15:43:09 - error:'login failed' status:400
+[INFO]: 25-07-2023 15:43:22 - login api called successfully
+[ERROR]: 25-07-2023 15:43:22 - error:'login failed' status:400
+[INFO]: 25-07-2023 15:43:23 - login api called successfully
+[ERROR]: 25-07-2023 15:43:23 - error:'login failed' status:400
+[INFO]: 25-07-2023 15:43:27 - login api called successfully
+[ERROR]: 25-07-2023 15:43:27 - error:'login failed' status:400
+[INFO]: 25-07-2023 15:43:30 - login api called successfully
+[INFO]: 25-07-2023 15:43:30 - message:'Login Successful' status:200
+[INFO]: 25-07-2023 15:43:32 - login api called successfully
+[INFO]: 25-07-2023 15:43:32 - message:'Login Successful' status:200
+[INFO]: 25-07-2023 15:43:33 - login api called successfully
+[INFO]: 25-07-2023 15:43:33 - message:'Login Successful' status:200
+[INFO]: 25-07-2023 15:43:33 - login api called successfully
+[INFO]: 25-07-2023 15:43:33 - message:'Login Successful' status:200
+[INFO]: 25-07-2023 15:43:34 - login api called successfully
+[ERROR]: 25-07-2023 15:43:34 - error:'Invalid Format' status:400
+[INFO]: 25-07-2023 15:44:51 - login api called successfully
+[ERROR]: 25-07-2023 15:44:51 - error:'login failed' status:400
+[INFO]: 25-07-2023 15:44:52 - login api called successfully
+[ERROR]: 25-07-2023 15:44:52 - error:'login failed' status:400
+[INFO]: 25-07-2023 15:44:53 - login api called successfully
+[ERROR]: 25-07-2023 15:44:53 - error:'login failed' status:400
+[INFO]: 25-07-2023 15:44:53 - login api called successfully
+[ERROR]: 25-07-2023 15:44:53 - error:'login failed' status:400
+[INFO]: 25-07-2023 15:44:54 - login api called successfully
+[ERROR]: 25-07-2023 15:44:54 - error:'login failed' status:400
+[INFO]: 25-07-2023 15:45:03 - login api called successfully
+[ERROR]: 25-07-2023 15:45:03 - error:'login failed' status:400
+[INFO]: 25-07-2023 15:45:04 - login api called successfully
+[ERROR]: 25-07-2023 15:45:04 - error:'login failed' status:400
+[INFO]: 25-07-2023 15:45:04 - login api called successfully
+[ERROR]: 25-07-2023 15:45:04 - error:'login failed' status:400
+[INFO]: 25-07-2023 15:45:06 - login api called successfully
+[ERROR]: 25-07-2023 15:45:06 - error:'login failed' status:400
+[INFO]: 25-07-2023 15:45:25 - Signup api called successfully
+[INFO]: 25-07-2023 15:45:25 - message:'sign up successfull' status:200
+[INFO]: 25-07-2023 15:45:33 - login api called successfully
+[ERROR]: 25-07-2023 15:45:33 - error:'login failed' status:400
+[INFO]: 25-07-2023 15:45:37 - login api called successfully
+[ERROR]: 25-07-2023 15:45:38 - error:'Password Not Matching' status:400
+[INFO]: 25-07-2023 15:45:41 - login api called successfully
+[INFO]: 25-07-2023 15:45:41 - message:'Login Successful' status:200
+[INFO]: 25-07-2023 15:45:56 - Signup api called successfully
+[ERROR]: 25-07-2023 15:45:56 - error:'Invalid Email Format' status:400
+[INFO]: 25-07-2023 15:46:02 - Signup api called successfully
+[ERROR]: 25-07-2023 15:46:02 - error:'Username field should not be empty' status:400
+[INFO]: 25-07-2023 15:46:06 - Signup api called successfully
+[ERROR]: 25-07-2023 15:46:06 - error:'Password should be more than 8 characters' status:400
+[INFO]: 25-07-2023 15:46:13 - Signup api called successfully
+[ERROR]: 25-07-2023 15:46:13 - error:'Invalid phone number format' status:400
+[INFO]: 25-07-2023 15:46:25 - Signup api called successfully
+[INFO]: 25-07-2023 15:46:25 - message:'sign up successfull' status:200
+[INFO]: 25-07-2023 15:46:28 - Signup api called successfully
+[ERROR]: 25-07-2023 15:46:28 - error:'user already exist' status:400
+[INFO]: 25-07-2023 17:20:10 - Signup api called successfully
+[ERROR]: 25-07-2023 17:20:10 - error:'user already exist' status:400
+[INFO]: 25-07-2023 17:20:27 - login api called successfully
+[INFO]: 25-07-2023 17:20:27 - message:'Login Successful' status:200
+[INFO]: 25-07-2023 17:20:33 - login api called successfully
+[ERROR]: 25-07-2023 17:20:33 - error:'Password Not Matching' status:400
+[INFO]: 25-07-2023 17:20:38 - login api called successfully
+[ERROR]: 25-07-2023 17:20:38 - error:'login failed' status:400
+[INFO]: 25-07-2023 17:21:44 - login api called successfully
+[ERROR]: 25-07-2023 17:21:44 - error:'email not registered' status:400
+[INFO]: 25-07-2023 17:21:52 - login api called successfully
+[INFO]: 25-07-2023 17:21:53 - message:'Login Successful' status:200
+[INFO]: 25-07-2023 17:21:57 - login api called successfully
+[ERROR]: 25-07-2023 17:21:57 - error:'Password Not Matching' status:400
+[INFO]: 25-07-2023 17:22:02 - login api called successfully
+[ERROR]: 25-07-2023 17:22:02 - error:'email not registered' status:400
+[INFO]: 25-07-2023 17:22:09 - login api called successfully
+[ERROR]: 25-07-2023 17:22:09 - error:'Invalid Format' status:400
+[INFO]: 25-07-2023 17:22:15 - login api called successfully
+[ERROR]: 25-07-2023 17:22:15 - error:'email not registered' status:400
+[INFO]: 25-07-2023 17:22:19 - login api called successfully
+[INFO]: 25-07-2023 17:22:19 - message:'Login Successful' status:200
+[INFO]: 25-07-2023 17:22:24 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 17:22:24 - error:'invalid format' status:400
+[INFO]: 25-07-2023 17:23:43 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 17:23:43 - error:'field details missing' status:400
+[INFO]: 25-07-2023 17:25:10 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 17:25:10 - error:'error in posting task details' status:400
+[INFO]: 25-07-2023 17:25:22 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 17:25:22 - error:'error in posting task details' status:400
+[INFO]: 25-07-2023 17:26:29 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 17:26:29 - error:'error in posting task details' status:400
+[INFO]: 25-07-2023 17:27:47 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 17:27:47 - error:'error in posting task details' status:400
+[INFO]: 25-07-2023 17:31:02 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 17:31:02 - error:'error in posting task details' status:400
+[INFO]: 25-07-2023 17:32:41 -  TaskRemainder api called successfully
+[INFO]: 25-07-2023 17:32:42 - error:'Task Details Successfully Posted' status:200
+[INFO]: 25-07-2023 17:37:10 -  TaskRemainder api called successfully
+[INFO]: 25-07-2023 17:37:10 - error:'Task Details Successfully Posted' status:200
+[INFO]: 25-07-2023 17:37:11 -  TaskRemainder api called successfully
+[INFO]: 25-07-2023 17:37:11 - error:'Task Details Successfully Posted' status:200
+[INFO]: 25-07-2023 17:37:27 -  TaskRemainder api called successfully
+[INFO]: 25-07-2023 17:37:28 - error:'Task Details Successfully Posted' status:200
+[INFO]: 25-07-2023 17:37:38 - GetAllTaskDetails API called successfully
+[INFO]: 25-07-2023 17:38:01 - GetTaskDetailsByID API  called successfully
+[ERROR]: 25-07-2023 17:38:01 - error:'Task post does not exist' status:404
+[INFO]: 25-07-2023 17:43:41 - GetAllTaskDetails API called successfully
+[INFO]: 25-07-2023 17:43:49 - GetTaskDetailsByID API  called successfully
+[INFO]: 25-07-2023 17:43:51 - GetTaskDetailsByID API  called successfully
+[INFO]: 25-07-2023 17:44:06 - GetTaskDetailsByID API  called successfully
+[ERROR]: 25-07-2023 17:44:06 - error:'Task post does not exist' status:404
+[INFO]: 25-07-2023 17:44:29 - UpdateTask API called Successfully
+[ERROR]: 25-07-2023 17:44:29 - error:'can't update status:400
+[INFO]: 25-07-2023 17:44:29 - message:'task updated successfully' status:200
+[INFO]: 25-07-2023 17:44:41 - DeleteJob called successfully
+[ERROR]: 25-07-2023 17:44:41 - Error:'job id not found' status:404
+[INFO]: 25-07-2023 17:44:44 - DeleteJob called successfully
+[INFO]: 25-07-2023 17:44:44 - message:'job post deleted successfully' status:200
+[INFO]: 25-07-2023 17:44:45 - DeleteJob called successfully
+[ERROR]: 25-07-2023 17:44:45 - Error:'job id not found' status:404
+[INFO]: 25-07-2023 17:45:01 - GetJobPostingByCompany API called successfully
+[INFO]: 25-07-2023 17:45:06 - GetJobPostingByCompany API called successfully
+[INFO]: 25-07-2023 17:45:11 - GetJobPostingByCompany API called successfully
+[INFO]: 25-07-2023 17:49:02 - GetJobPostingByCompany API called successfully
+[INFO]: 25-07-2023 17:51:49 - GetJobPostingByCompany API called successfully
+[INFO]: 25-07-2023 17:53:52 - GetJobPostingByCompany API called successfully
+[INFO]: 25-07-2023 17:54:16 - GetJobPostingByCompany API called successfully
+[INFO]: 25-07-2023 18:44:06 -  TaskRemainder api called successfully
+[INFO]: 25-07-2023 18:44:06 - error:'Task Details Successfully Posted' status:200
+[INFO]: 25-07-2023 18:44:07 -  TaskRemainder api called successfully
+[INFO]: 25-07-2023 18:44:08 - error:'Task Details Successfully Posted' status:200
+[INFO]: 25-07-2023 18:44:08 -  TaskRemainder api called successfully
+[INFO]: 25-07-2023 18:44:08 - error:'Task Details Successfully Posted' status:200
+[INFO]: 25-07-2023 18:44:08 -  TaskRemainder api called successfully
+[INFO]: 25-07-2023 18:44:08 - error:'Task Details Successfully Posted' status:200
+[INFO]: 25-07-2023 18:44:09 -  TaskRemainder api called successfully
+[INFO]: 25-07-2023 18:44:09 - error:'Task Details Successfully Posted' status:200
+[INFO]: 25-07-2023 18:46:06 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 18:46:06 - error:'invalid format' status:400
+[INFO]: 25-07-2023 18:46:07 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 18:46:07 - error:'invalid format' status:400
+[INFO]: 25-07-2023 18:46:08 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 18:46:08 - error:'invalid format' status:400
+[INFO]: 25-07-2023 18:46:09 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 18:46:09 - error:'invalid format' status:400
+[INFO]: 25-07-2023 18:46:09 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 18:46:09 - error:'invalid format' status:400
+[INFO]: 25-07-2023 18:47:45 - Signup api called successfully
+[INFO]: 25-07-2023 18:47:45 - message:'sign up successfull' status:200
+[INFO]: 25-07-2023 18:47:46 - Signup api called successfully
+[ERROR]: 25-07-2023 18:47:47 - error:'user already exist' status:400
+[INFO]: 25-07-2023 18:47:53 - login api called successfully
+[INFO]: 25-07-2023 18:47:53 - message:'Login Successful' status:200
+[INFO]: 25-07-2023 18:47:55 - login api called successfully
+[ERROR]: 25-07-2023 18:47:55 - error:'email not registered' status:400
+[INFO]: 25-07-2023 18:47:58 - login api called successfully
+[INFO]: 25-07-2023 18:47:58 - message:'Login Successful' status:200
+[INFO]: 25-07-2023 18:48:17 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 18:48:17 - error:'invalid format' status:400
+[INFO]: 25-07-2023 18:48:18 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 18:48:18 - error:'invalid format' status:400
+[INFO]: 25-07-2023 18:48:19 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 18:48:19 - error:'invalid format' status:400
+[INFO]: 25-07-2023 18:48:19 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 18:48:19 - error:'invalid format' status:400
+[INFO]: 25-07-2023 18:48:19 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 18:48:19 - error:'invalid format' status:400
+[INFO]: 25-07-2023 18:48:20 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 18:48:20 - error:'invalid format' status:400
+[INFO]: 25-07-2023 19:18:22 - Signup api called successfully
+[ERROR]: 25-07-2023 19:18:22 - error:'user already exist' status:400
+[INFO]: 25-07-2023 19:18:31 - Signup api called successfully
+[INFO]: 25-07-2023 19:18:31 - message:'sign up successfull' status:200
+[INFO]: 25-07-2023 19:18:36 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 19:18:36 - error:'invalid format' status:400
+[INFO]: 25-07-2023 19:18:37 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 19:18:37 - error:'invalid format' status:400
+[INFO]: 25-07-2023 19:18:37 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 19:18:37 - error:'invalid format' status:400
+[INFO]: 25-07-2023 19:18:38 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 19:18:38 - error:'invalid format' status:400
+[INFO]: 25-07-2023 19:18:40 - GetTaskDetailsByID API  called successfully
+[INFO]: 25-07-2023 19:18:58 - GetAllTaskDetails API called successfully
+[INFO]: 25-07-2023 19:19:07 - GetTaskDetailsByID API  called successfully
+[ERROR]: 25-07-2023 19:19:07 - error:'Task post does not exist' status:404
+[INFO]: 25-07-2023 19:19:10 - UpdateTask API called Successfully
+[ERROR]: 25-07-2023 19:19:11 - Error:'task post not found' status:404
+[INFO]: 25-07-2023 19:19:14 - DeleteJob called successfully
+[INFO]: 25-07-2023 19:19:14 - message:'job post deleted successfully' status:200
+[INFO]: 25-07-2023 19:19:15 - DeleteJob called successfully
+[ERROR]: 25-07-2023 19:19:15 - Error:'job id not found' status:404
+[INFO]: 25-07-2023 19:19:23 - GetJobPostingByCompany API called successfully
+[INFO]: 25-07-2023 19:19:37 - GetJobPostingByCompany API called successfully
+[ERROR]: 25-07-2023 19:19:37 - Error:'company post does not exist' status:404
+[INFO]: 25-07-2023 19:21:27 - GetJobPostingByCompany API called successfully
+[INFO]: 25-07-2023 19:21:36 - GetJobPostingByCompany API called successfully
+[ERROR]: 25-07-2023 19:21:36 - Error:'company post does not exist' status:404
+[INFO]: 25-07-2023 19:21:52 - GetJobPostingByCompany API called successfully
+[ERROR]: 25-07-2023 19:21:52 - Error:'company post does not exist' status:404
+[INFO]: 25-07-2023 19:28:57 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 19:28:57 - error:'invalid format' status:400
+[INFO]: 25-07-2023 19:29:02 -  TaskRemainder api called successfully
+[INFO]: 25-07-2023 19:29:02 - error:'Task Details Successfully Posted' status:200
+[INFO]: 25-07-2023 19:29:16 -  TaskRemainder api called successfully
+[INFO]: 25-07-2023 19:29:16 - error:'Task Details Successfully Posted' status:200
+[INFO]: 25-07-2023 19:29:17 -  TaskRemainder api called successfully
+[INFO]: 25-07-2023 19:29:17 - error:'Task Details Successfully Posted' status:200
+[INFO]: 25-07-2023 19:29:28 - GetJobPostingByCompany API called successfully
+[INFO]: 25-07-2023 19:29:38 - GetJobPostingByCompany API called successfully
+[INFO]: 25-07-2023 19:31:39 - GetJobPostingByCompany API called successfully
+[ERROR]: 25-07-2023 19:31:39 - Error:'company post does not exist' status:404
+[INFO]: 25-07-2023 19:35:11 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 19:35:11 - error:'' status:400
+[INFO]: 25-07-2023 19:35:18 -  TaskRemainder api called successfully
+[INFO]: 25-07-2023 19:35:18 - error:'Task Details Successfully Posted' status:200
+[INFO]: 25-07-2023 19:35:27 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 19:35:27 - error:'' status:400
+[INFO]: 25-07-2023 19:36:08 -  TaskRemainder api called successfully
+[INFO]: 25-07-2023 19:36:08 - error:'Task Details Successfully Posted' status:200
+[INFO]: 25-07-2023 19:47:42 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 19:47:42 - Error:'job ID not found' status:404
+[INFO]: 25-07-2023 19:47:44 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 19:47:44 - Error:'job ID not found' status:404
+[INFO]: 25-07-2023 19:48:39 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 19:48:39 - error:'invalid format' status:400
+[INFO]: 25-07-2023 19:48:40 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 19:48:40 - error:'invalid format' status:400
+[INFO]: 25-07-2023 19:48:40 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 19:48:40 - error:'invalid format' status:400
+[INFO]: 25-07-2023 19:50:05 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 19:50:05 - Error:'User ID not found' status:404
+[INFO]: 25-07-2023 19:50:27 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 19:50:27 - Error:'User ID not found' status:404
+[INFO]: 25-07-2023 19:50:51 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 19:50:51 - error:'invalid format' status:400
+[INFO]: 25-07-2023 19:58:01 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 19:58:01 - error:'invalid format' status:400
+[INFO]: 25-07-2023 19:58:02 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 19:58:02 - error:'invalid format' status:400
+[INFO]: 25-07-2023 19:58:10 - Signup api called successfully
+[INFO]: 25-07-2023 19:58:10 - message:'sign up successfull' status:200
+[INFO]: 25-07-2023 19:58:15 - Signup api called successfully
+[INFO]: 25-07-2023 19:58:15 - message:'sign up successfull' status:200
+[INFO]: 25-07-2023 19:58:18 - Signup api called successfully
+[INFO]: 25-07-2023 19:58:18 - message:'sign up successfull' status:200
+[INFO]: 25-07-2023 19:58:25 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 19:58:25 - error:'invalid format' status:400
+[INFO]: 25-07-2023 19:58:50 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 19:58:51 - Error:'User ID not found' status:404
+[INFO]: 25-07-2023 19:59:54 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 19:59:54 - error:'invalid format' status:400
+[INFO]: 25-07-2023 20:00:06 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 20:00:06 - Error:'User ID not found' status:404
+[INFO]: 25-07-2023 20:00:10 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 20:00:10 - error:'invalid format' status:400
+[INFO]: 25-07-2023 20:17:34 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 20:17:34 - Error:'User ID not found' status:404
+[INFO]: 25-07-2023 20:39:59 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 20:39:59 - Error:'User ID not found' status:404
+[INFO]: 25-07-2023 20:40:00 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 20:40:00 - Error:'User ID not found' status:404
+[INFO]: 25-07-2023 20:40:27 - GetAllTaskDetails API called successfully
+[INFO]: 25-07-2023 20:41:37 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 20:41:37 - Error:'User ID not found' status:404
+[INFO]: 25-07-2023 20:43:05 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 20:43:05 - Error:'User ID not found' status:404
+[INFO]: 25-07-2023 20:43:10 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 20:43:10 - Error:'User ID not found' status:404
+[INFO]: 25-07-2023 20:43:13 -  TaskRemainder api called successfully
+[ERROR]: 25-07-2023 20:43:13 - Error:'User ID not found' status:404
+[INFO]: 26-07-2023 10:57:47 - Signup api called successfully
+[INFO]: 26-07-2023 10:57:48 - message:'sign up successfull' status:200
+[INFO]: 26-07-2023 10:58:04 - Signup api called successfully
+[ERROR]: 26-07-2023 10:58:04 - error:'Invalid Email Format' status:400
+[INFO]: 26-07-2023 10:58:12 - Signup api called successfully
+[ERROR]: 26-07-2023 10:58:12 - error:'Username field should not be empty' status:400
+[INFO]: 26-07-2023 10:58:24 - Signup api called successfully
+[ERROR]: 26-07-2023 10:58:24 - error:'Password should be more than 8 characters' status:400
+[INFO]: 26-07-2023 10:58:26 - Signup api called successfully
+[ERROR]: 26-07-2023 10:58:26 - error:'Password should be more than 8 characters' status:400
+[INFO]: 26-07-2023 10:58:30 - Signup api called successfully
+[ERROR]: 26-07-2023 10:58:30 - error:'Password should be more than 8 characters' status:400
+[INFO]: 26-07-2023 10:58:31 - Signup api called successfully
+[ERROR]: 26-07-2023 10:58:31 - error:'Password should be more than 8 characters' status:400
+[INFO]: 26-07-2023 10:58:32 - Signup api called successfully
+[ERROR]: 26-07-2023 10:58:32 - error:'Password should be more than 8 characters' status:400
+[INFO]: 26-07-2023 10:58:33 - Signup api called successfully
+[ERROR]: 26-07-2023 10:58:33 - error:'Password should be more than 8 characters' status:400
+[INFO]: 26-07-2023 10:58:39 - Signup api called successfully
+[INFO]: 26-07-2023 10:58:39 - message:'sign up successfull' status:200
+[INFO]: 26-07-2023 10:58:53 - Signup api called successfully
+[ERROR]: 26-07-2023 10:58:53 - error:'Invalid phone number format' status:400
+[INFO]: 26-07-2023 10:58:58 - Signup api called successfully
+[ERROR]: 26-07-2023 10:58:58 - error:'Invalid phone number format' status:400
+[INFO]: 26-07-2023 10:59:06 - Signup api called successfully
+[ERROR]: 26-07-2023 10:59:06 - error:'user already exist' status:400
+[INFO]: 26-07-2023 10:59:18 - Signup api called successfully
+[INFO]: 26-07-2023 10:59:18 - message:'sign up successfull' status:200
+[INFO]: 26-07-2023 10:59:26 - login api called successfully
+[ERROR]: 26-07-2023 10:59:26 - error:'login failed' status:400
+[INFO]: 26-07-2023 10:59:27 - login api called successfully
+[ERROR]: 26-07-2023 10:59:27 - error:'login failed' status:400
+[INFO]: 26-07-2023 10:59:28 - login api called successfully
+[ERROR]: 26-07-2023 10:59:28 - error:'login failed' status:400
+[INFO]: 26-07-2023 10:59:29 - login api called successfully
+[ERROR]: 26-07-2023 10:59:29 - error:'login failed' status:400
+[INFO]: 26-07-2023 10:59:34 - login api called successfully
+[ERROR]: 26-07-2023 10:59:34 - error:'login failed' status:400
+[INFO]: 26-07-2023 10:59:37 - login api called successfully
+[ERROR]: 26-07-2023 10:59:37 - error:'Password Not Matching' status:400
+[INFO]: 26-07-2023 10:59:48 - login api called successfully
+[ERROR]: 26-07-2023 10:59:48 - error:'Password Not Matching' status:400
+[INFO]: 26-07-2023 10:59:49 - login api called successfully
+[ERROR]: 26-07-2023 10:59:49 - error:'Password Not Matching' status:400
+[INFO]: 26-07-2023 11:00:03 - login api called successfully
+[ERROR]: 26-07-2023 11:00:03 - error:'Password Not Matching' status:400
+[INFO]: 26-07-2023 11:00:05 - login api called successfully
+[INFO]: 26-07-2023 11:00:05 - message:'Login Successful' status:200
+[INFO]: 26-07-2023 11:05:19 - login api called successfully
+[ERROR]: 26-07-2023 11:05:20 - error:'Password Not Matching' status:400
+[INFO]: 26-07-2023 11:05:24 - login api called successfully
+[INFO]: 26-07-2023 11:05:24 - message:'Login Successful' status:200
+[INFO]: 26-07-2023 11:05:27 - login api called successfully
+[ERROR]: 26-07-2023 11:05:27 - error:'login failed' status:400
+[INFO]: 26-07-2023 11:05:31 - login api called successfully
+[INFO]: 26-07-2023 11:05:31 - message:'Login Successful' status:200
+[INFO]: 26-07-2023 11:07:07 -  TaskRemainder api called successfully
+[INFO]: 26-07-2023 11:07:07 - error:'Task Details Successfully Posted' status:200
+[INFO]: 26-07-2023 11:07:49 -  TaskRemainder api called successfully
+[INFO]: 26-07-2023 11:07:49 - error:'Task Details Successfully Posted' status:200
+[INFO]: 26-07-2023 11:07:59 -  TaskRemainder api called successfully
+[ERROR]: 26-07-2023 11:07:59 - error:'' status:400
+[INFO]: 26-07-2023 11:08:09 -  TaskRemainder api called successfully
+[INFO]: 26-07-2023 11:08:09 - error:'Task Details Successfully Posted' status:200
+[INFO]: 26-07-2023 11:08:20 -  TaskRemainder api called successfully
+[INFO]: 26-07-2023 11:08:20 - error:'Task Details Successfully Posted' status:200
+[INFO]: 26-07-2023 11:08:36 -  TaskRemainder api called successfully
+[INFO]: 26-07-2023 11:08:36 - error:'Task Details Successfully Posted' status:200
+[INFO]: 26-07-2023 11:08:50 - GetAllTaskDetails API called successfully
+[INFO]: 26-07-2023 11:09:09 - GetTaskDetailsByID API  called successfully
+[ERROR]: 26-07-2023 11:09:09 - error:'Task post does not exist' status:404
+[INFO]: 26-07-2023 11:09:12 - GetTaskDetailsByID API  called successfully
+[INFO]: 26-07-2023 11:09:16 - GetTaskDetailsByID API  called successfully
+[INFO]: 26-07-2023 11:09:31 - UpdateTask API called Successfully
+[ERROR]: 26-07-2023 11:09:31 - Error:'task post not found' status:404
+[INFO]: 26-07-2023 11:09:45 - UpdateTask API called Successfully
+[ERROR]: 26-07-2023 11:09:45 - error:'can't update status:400
+[INFO]: 26-07-2023 11:09:45 - message:'task updated successfully' status:200
+[INFO]: 26-07-2023 11:10:09 - DeleteJob called successfully
+[INFO]: 26-07-2023 11:10:10 - message:'job post deleted successfully' status:200
+[INFO]: 26-07-2023 11:10:28 - GetJobPostingByCompany API called successfully
+[INFO]: 26-07-2023 11:10:50 - GetJobPostingByCompany API called successfully
+[INFO]: 26-07-2023 11:10:54 - GetJobPostingByCompany API called successfully
+[ERROR]: 26-07-2023 11:10:54 - Error:'currently no status for this' status:404
+[INFO]: 26-07-2023 11:19:28 - Signup api called successfully
+[ERROR]: 26-07-2023 11:19:28 - error:'user already exist' status:400
+[INFO]: 26-07-2023 11:19:29 - Signup api called successfully
+[ERROR]: 26-07-2023 11:19:29 - error:'user already exist' status:400
+[INFO]: 26-07-2023 11:19:32 - Signup api called successfully
+[INFO]: 26-07-2023 11:19:32 - message:'sign up successfull' status:200
+[INFO]: 26-07-2023 11:19:35 - login api called successfully
+[INFO]: 26-07-2023 11:19:35 - message:'Login Successful' status:200
+[INFO]: 26-07-2023 11:19:37 - login api called successfully
+[ERROR]: 26-07-2023 11:19:37 - error:'login failed' status:400
+[INFO]: 26-07-2023 11:19:40 -  TaskRemainder api called successfully
+[INFO]: 26-07-2023 11:19:40 - error:'Task added Successfully' status:200
+[INFO]: 26-07-2023 11:19:43 - GetAllTaskDetails API called successfully
+[INFO]: 26-07-2023 11:19:47 - GetTaskDetailsByID API  called successfully

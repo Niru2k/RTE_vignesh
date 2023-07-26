@@ -1,7 +1,15 @@
 package main
 
-import "fmt"
+import (
+	//user defined package
+	"todo/driver"
+	"todo/repository"
+	"todo/router"
+
+)
 
 func main() {
-	fmt.Println("hello")
+	driver.DatabaseConnection()
+	repository.CreateTables()
+	router.Router()
 }
