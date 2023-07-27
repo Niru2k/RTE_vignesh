@@ -6,7 +6,7 @@ import (
 	"github.com/joho/godotenv"
 )
 
-var SigningKey = []byte("secret")
+
 
 func Configure(filename string)error {
 	err := godotenv.Load(filename)

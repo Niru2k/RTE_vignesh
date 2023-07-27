@@ -2,25 +2,33 @@ package router
 
 import (
 	//user defined package
-	// "echo/authentication"
 	"todo/authentication"
 	"todo/handler"
 
 	//third party package
 	"github.com/gofiber/fiber/v2"
+	"gorm.io/gorm"
 )
 
-func Router() {
-	f := fiber.New()
+// common routes
+func SignupAndLogin(Db *gorm.DB, f *fiber.App) {
+	handler := handler.Database{Database: Db}
+	common := f.Group("/")
+	common.Post("/signup", handler.Signup)
+	common.Post("/login", handler.Login)
 
-	f.Post("/signup", handler.Signup)
-	f.Post("/login", handler.Login)
-	f.Post("/posttask", authentication.AuthMiddleware(),handler.TaskRemainder)
-	f.Get("/getalltask", authentication.AuthMiddleware(),handler.GetAllTaskDetails)
-	f.Get("/getalltaskbyid/:id", authentication.AuthMiddleware(),handler.GetTaskDetailsByID)
-	f.Put("/updatetaskbyid/:id", authentication.AuthMiddleware(),handler.UpdateTask)
-
-	f.Delete("/deletetaskbyid/:id",authentication.AuthMiddleware(),handler.DeleteTask)
-	f.Get("/gettaskbystatus/:status",authentication.AuthMiddleware(),handler.GetTaskStatus)
-	f.Listen(":3000")
 }
+
+//user authorization routers
+func UserAuthentication(Db *gorm.DB, f *fiber.App) {
+	handler := handler.Database{Database: Db}
+	userauthenticated := f.Group("user/")
+	userauthenticated.Use(authentication.AuthMiddleware())
+	userauthenticated.Post("/posttask", handler.TaskPosting)
+	userauthenticated.Get("/getusertaskdetails", handler.GetUserTaskDetails)
+    userauthenticated.Get("/gettaskbystatus/:status", handler.GetTaskStatus)
+	userauthenticated.Put("/updatetask/:id", handler.UpdateTask)
+	userauthenticated.Delete("/deletetask/:id", handler.DeleteTask)
+
+}
+   

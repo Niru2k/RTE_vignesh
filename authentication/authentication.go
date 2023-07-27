@@ -3,19 +3,15 @@ package authentication
 import (
 
 	//inbuilt package
-
 	"net/http"
 	"time"
 
 	//third party package
-
 	"github.com/dgrijalva/jwt-go"
-
 	"github.com/gofiber/fiber/v2"
 )
 
 // setting authorization for the users
-
 func AuthMiddleware() fiber.Handler {
 	return func(c *fiber.Ctx) error {
 		tokenString := c.Get("Authorization")

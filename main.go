@@ -5,11 +5,16 @@ import (
 	"todo/driver"
 	"todo/repository"
 	"todo/router"
+	"github.com/gofiber/fiber/v2"
 
 )
 
 func main() {
-	driver.DatabaseConnection()
-	repository.CreateTables()
-	router.Router()
+	f := fiber.New()
+	Db:=driver.DatabaseConnection()
+	repository.CreateTables(Db)
+	router.SignupAndLogin(Db,f)
+	router.UserAuthentication(Db,f)
+	f.Listen(":3000")
 }
+

@@ -9,8 +9,10 @@ type Information struct {
 }
 
 type TaskDetails struct {
-	TASK_ID   uint   `json:"-"                   gorm:"primaryKey;autoIncrement:true"`
-	// User_id   uint   `json:"-"                   gorm:"type:bigint references Information(user_id)"`
-	TASK_NAME string `json:"task_name"           gorm:"column:task_name;type:varchar(50)"`
-	Status    string `json:"status"              gorm:"column:status;type:varchar(50)"`
+	TASK_ID   uint   `json:"-"                       gorm:"primaryKey;autoIncrement:true"`
+	User_id   uint   `json:"-"                       gorm:"type:bigint references Information(user_id)"`
+	TASK_NAME string `json:"task_name"               gorm:"column:task_name;type:varchar(50)"`
+	Status    string `json:"status"                  gorm:"column:status;type:varchar(50)"`
+	
 }
+

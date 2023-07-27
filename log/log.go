@@ -11,6 +11,7 @@ import (
 	call "github.com/t-tomalak/logrus-easy-formatter"
 )
 
+//log files to store all the the information
 func Logs() *logrus.Logger {
 	file, err := os.OpenFile("logs.log", os.O_WRONLY|os.O_CREATE|os.O_APPEND, 0644)
 	if err != nil {
