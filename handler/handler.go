@@ -174,6 +174,7 @@ func (Db Database) TaskPosting(c *fiber.Ctx) error {
 			"status": 500,
 		})
 	}
+
 	tokenStr := c.GetReqHeaders()
 	tokenString := tokenStr["Authorization"]
 	if tokenString == "" {
@@ -190,6 +191,7 @@ func (Db Database) TaskPosting(c *fiber.Ctx) error {
 	})
 	userid, _ := strconv.Atoi(claims["user_id"].(string))
 	post.User_id = uint(userid)
+
 	if post.Status != "active" && post.Status != "completed" {
 		log.Error("error:'' status:400")
 		return c.Status(http.StatusBadRequest).JSON(map[string]interface{}{
@@ -209,74 +211,6 @@ func (Db Database) TaskPosting(c *fiber.Ctx) error {
 	return c.Status(http.StatusOK).JSON(map[string]interface{}{
 		"message": "Task added Successfully",
 		"status":  200,
-	})
-}
-
-// get task details by user id
-func (Db Database) GetUserTaskDetails(c *fiber.Ctx) error {
-	log := logs.Logs()
-	log.Info("GetTaskDetailsByUserID API called successfully")
-	tokenStr := c.GetReqHeaders()
-	tokenString := tokenStr["Authorization"]
-	if tokenString == "" {
-		return c.Status(http.StatusUnauthorized).SendString("Missing token")
-	}
-	for index, char := range tokenString {
-		if char == ' ' {
-
-			tokenString = tokenString[index+1:]
-		}
-	}
-	claims := jwt.MapClaims{}
-	jwt.ParseWithClaims(tokenString, claims, func(token *jwt.Token) (interface{}, error) {
-		return []byte("secret"), nil
-	})
-	userid := claims["user_id"].(string)
-	create, err := repository.GetTaskByUser(Db.Database, userid)
-	if err != nil {
-		log.Error("error:'task does not exist' status:404")
-		return c.Status(http.StatusNotFound).JSON(map[string]interface{}{
-			"error":  "user id does not exist",
-			"status": 404,
-		})
-	}
-	return c.JSON(map[string]interface{}{
-		"status": fiber.StatusOK,
-		"task":   create,
-	})
-}
-
-// get the active and completed task status
-func (Db Database) GetTaskStatus(c *fiber.Ctx) error {
-	log := logs.Logs()
-	log.Info("GetTaskStatus API called successfully")
-	task_status := c.Params("status")
-	tokenStr := c.GetReqHeaders()
-	tokenString := tokenStr["Authorization"]
-	if tokenString == "" {
-		return c.Status(http.StatusUnauthorized).SendString("Missing token")
-	}
-	for index, char := range tokenString {
-		if char == ' ' {
-			tokenString = tokenString[index+1:]
-		}
-	}
-	claims := jwt.MapClaims{}
-	jwt.ParseWithClaims(tokenString, claims, func(token *jwt.Token) (interface{}, error) {
-		return []byte("secret"), nil
-	})
-	userid := claims["user_id"].(string)
-	task, err := repository.GetTaskStatus(Db.Database, task_status, userid)
-	if err != nil || len(task) == 0 {
-		log.Error("Error:'currently no status for this' status:404")
-		return c.Status(http.StatusNotFound).JSON(map[string]interface{}{
-			"error":  "currently no status for this",
-			"status": 404,
-		})
-	}
-	return c.JSON(map[string]interface{}{
-		"status": fiber.StatusOK,
-		"task":   task,
 	})
 }
 
@@ -402,4 +336,95 @@ func (Db Database) DeleteTask(c *fiber.Ctx) error {
 		"status":  http.StatusOK,
 		"message": "Task deleted successfully",
 	})
+}
+
+// Get tasks by user and date
+func (Db Database) GetTasksByUserAndDate(c *fiber.Ctx) error {
+	log := logs.Logs()
+	log.Info("GetTasksByUserAndDate API called successfully")
+
+	// Get the user ID from the JWT token
+	tokenStr := c.GetReqHeaders()
+	tokenString := tokenStr["Authorization"]
+	if tokenString == "" {
+		return c.Status(http.StatusUnauthorized).SendString("Missing token")
+	}
+	for index, char := range tokenString {
+		if char == ' ' {
+			tokenString = tokenString[index+1:]
+		}
+	}
+	claims := jwt.MapClaims{}
+	jwt.ParseWithClaims(tokenString, claims, func(token *jwt.Token) (interface{}, error) {
+		return []byte("secret"), nil
+	})
+	userID := claims["user_id"].(string)
+	startDate := c.Query("startDate")
+	endDate := c.Query("endDate")
+	status := c.Query("status")
+	t1, _ := time.Parse("02-01-2006", startDate)
+	t2, _ := time.Parse("02-01-2006", endDate)
+
+	if status == "" {
+		// Get tasks by user and date
+		tasks, err := repository.GetTasksByUserAndDate(Db.Database, userID, t1, t2)
+		if err != nil {
+			log.Error("error: failed to get tasks by user and date")
+			return c.Status(http.StatusInternalServerError).JSON(map[string]interface{}{
+				"error":  "Failed to get tasks by user and date",
+				"status": http.StatusInternalServerError,
+			})
+		}
+		if len(tasks) == 0 {
+			log.Info("No tasks assigned on the given date")
+			return c.JSON(map[string]interface{}{
+				"status":  http.StatusOK,
+				"message": "No tasks assigned on the given date",
+			})
+		}
+		return c.JSON(map[string]interface{}{
+			"status": http.StatusOK,
+			"tasks":  tasks,
+		})
+	} else if startDate == "" && endDate == ""{
+		tasks, err := repository.GetTasksByStatus(Db.Database, userID, status)
+		if err != nil {
+			log.Error("error: no status ")
+			return c.Status(http.StatusInternalServerError).JSON(map[string]interface{}{
+				"error":  "no status",
+				"status": http.StatusInternalServerError,
+			})
+		}
+		if len(tasks) == 0 {
+			log.Info("no status found ")
+			return c.JSON(map[string]interface{}{
+				"status":  http.StatusOK,
+				"message": "no status found ",
+			})
+		}
+		return c.JSON(map[string]interface{}{
+			"status": http.StatusOK,
+			"tasks":  tasks,
+		})
+	}else{
+		tasks, err := repository.GetTasksByUserAndDateAndStatus(Db.Database, userID, t1, t2, status)
+		if err != nil {
+			log.Error("error: failed to get tasks by user and date")
+			return c.Status(http.StatusInternalServerError).JSON(map[string]interface{}{
+				"error":  "Failed to get tasks by user and date",
+				"status": http.StatusInternalServerError,
+			})
+		}
+		if len(tasks) == 0 {
+			log.Info("No status found")
+			return c.JSON(map[string]interface{}{
+				"status":  http.StatusOK,
+				"message": "No status found",
+			})
+		}
+		return c.JSON(map[string]interface{}{
+			"status": http.StatusOK,
+			"tasks":  tasks,
+		})
+	}
 }

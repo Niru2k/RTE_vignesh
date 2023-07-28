@@ -11,5 +11,4 @@ import (
 func CreateTables(Db *gorm.DB) {
 	Db.AutoMigrate(&models.Information{})
 	Db.AutoMigrate(&models.TaskDetails{})
-
 }

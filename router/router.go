@@ -25,10 +25,9 @@ func UserAuthentication(Db *gorm.DB, f *fiber.App) {
 	userauthenticated := f.Group("user/")
 	userauthenticated.Use(authentication.AuthMiddleware())
 	userauthenticated.Post("/posttask", handler.TaskPosting)
-	userauthenticated.Get("/getusertaskdetails", handler.GetUserTaskDetails)
-    userauthenticated.Get("/gettaskbystatus/:status", handler.GetTaskStatus)
 	userauthenticated.Put("/updatetask/:id", handler.UpdateTask)
 	userauthenticated.Delete("/deletetask/:id", handler.DeleteTask)
+	userauthenticated.Get("/gettasksbydate", handler.GetTasksByUserAndDate)
 
 }
    

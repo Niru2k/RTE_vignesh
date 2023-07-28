@@ -2,19 +2,18 @@ package main
 
 import (
 	//user defined package
+	dbOperations "todo/Lookup"
 	"todo/driver"
-	"todo/repository"
 	"todo/router"
-	"github.com/gofiber/fiber/v2"
 
+	"github.com/gofiber/fiber/v2"
 )
 
 func main() {
 	f := fiber.New()
-	Db:=driver.DatabaseConnection()
-	repository.CreateTables(Db)
-	router.SignupAndLogin(Db,f)
-	router.UserAuthentication(Db,f)
-	f.Listen(":3000")
+	Db := driver.DatabaseConnection()
+	dbOperations.UpdateDatabase(Db)
+	router.SignupAndLogin(Db, f)
+	router.UserAuthentication(Db, f)
+	f.Listen(":8010")
 }
-

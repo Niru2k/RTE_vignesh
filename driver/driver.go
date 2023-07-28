@@ -3,7 +3,7 @@ package driver
 import (
 	//user defined package
 	"todo/helper"
-	
+
 	//built in package
 	"fmt"
 	"os"
@@ -14,7 +14,7 @@ import (
 	"gorm.io/gorm"
 )
 
-//connection with postgres database
+// connection with postgres database
 func DatabaseConnection() *gorm.DB {
 	err := helper.Configure(".env")
 	if err != nil {
@@ -30,7 +30,6 @@ func DatabaseConnection() *gorm.DB {
 	connection := fmt.Sprintf("host=%s port=%s user=%s password=%s dbname=%s sslmode=disable", host, port, user, password, dbname)
 	Database, err := gorm.Open(postgres.Open(connection), &gorm.Config{})
 	if err != nil {
-
 		fmt.Println("error in connecting with database")
 	}
 	fmt.Printf("%s,database connection sucessfull\n", dbname)

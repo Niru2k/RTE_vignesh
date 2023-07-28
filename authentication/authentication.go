@@ -37,8 +37,6 @@ func AuthMiddleware() fiber.Handler {
 		if ok && check < time.Now().Unix() {
 			return c.Status(http.StatusUnauthorized).SendString("Expired token")
 		}
-
 		return c.Next()
-
 	}
 }

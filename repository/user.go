@@ -3,6 +3,7 @@ package repository
 import (
 	//user defined package
 
+	"time"
 	"todo/models"
 
 	"gorm.io/gorm"
@@ -42,4 +43,22 @@ func UpdateTask(Db *gorm.DB, task models.TaskDetails) error {
 
 func DeleteTask(Db *gorm.DB, task models.TaskDetails) error {
 	return Db.Delete(task).Error
+}
+
+func GetTasksByUserAndDate(Db *gorm.DB, userID string, startDate, endDate time.Time) ([]models.TaskDetails, error) {
+	var tasks []models.TaskDetails
+	err := Db.Where("user_id = ? AND created_at BETWEEN ? AND ?", userID, startDate, endDate).Find(&tasks).Error
+	return tasks, err
+}
+
+func GetTasksByUserAndDateAndStatus(Db *gorm.DB, userID string, startDate, endDate time.Time, status string) ([]models.TaskDetails, error) {
+	var tasks []models.TaskDetails
+	err := Db.Where("user_id = ? AND status = ? AND created_at BETWEEN ? AND ?", userID, status, startDate, endDate).Find(&tasks).Error
+	return tasks, err
+}
+
+func GetTasksByStatus(Db *gorm.DB, userID string, status string) ([]models.TaskDetails, error) {
+	var tasks []models.TaskDetails
+	err := Db.Where("user_id = ? AND status = ?", userID, status).Find(&tasks).Error
+	return tasks, err
 }

@@ -1525,3 +1525,559 @@
 [ERROR]: 27-07-2023 20:51:53 - Error:'currently no status for this' status:404
 [INFO]: 27-07-2023 20:52:00 - GetTaskDetailsByUserID API called successfully
 [INFO]: 27-07-2023 20:52:11 - GetTaskDetailsByUserID API called successfully
+[INFO]: 28-07-2023 11:21:03 - Signup api called successfully
+[ERROR]: 28-07-2023 11:21:03 - error:'Invalid Email Format' status:400
+[INFO]: 28-07-2023 11:21:10 - Signup api called successfully
+[ERROR]: 28-07-2023 11:21:10 - error:'Username field should not be empty' status:400
+[INFO]: 28-07-2023 11:21:15 - Signup api called successfully
+[ERROR]: 28-07-2023 11:21:15 - error:'Password should be more than 8 characters' status:400
+[INFO]: 28-07-2023 11:21:21 - Signup api called successfully
+[ERROR]: 28-07-2023 11:21:21 - error:'Invalid phone number format' status:400
+[INFO]: 28-07-2023 11:21:26 - Signup api called successfully
+[ERROR]: 28-07-2023 11:21:26 - error:'Invalid phone number format' status:400
+[INFO]: 28-07-2023 11:21:30 - Signup api called successfully
+[INFO]: 28-07-2023 11:21:30 - message:'sign up successfull' status:200
+[INFO]: 28-07-2023 11:22:14 - Signup api called successfully
+[INFO]: 28-07-2023 11:22:14 - message:'sign up successfull' status:200
+[INFO]: 28-07-2023 11:22:17 - Signup api called successfully
+[ERROR]: 28-07-2023 11:22:17 - error:'user already exist' status:400
+[INFO]: 28-07-2023 11:22:26 - login api called successfully
+[ERROR]: 28-07-2023 11:22:26 - error:'login failed' status:400
+[INFO]: 28-07-2023 11:22:33 - login api called successfully
+[ERROR]: 28-07-2023 11:22:33 - error:'Password Not Matching' status:400
+[INFO]: 28-07-2023 11:22:35 - login api called successfully
+[INFO]: 28-07-2023 11:22:35 - message:'Login Successful' status:200
+[INFO]: 28-07-2023 11:22:49 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:22:49 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 11:22:52 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:22:52 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 11:22:53 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:22:53 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 11:22:53 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:22:53 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 11:22:54 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:22:54 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 11:22:55 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:22:55 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 11:22:56 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:22:56 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 11:23:10 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:23:10 - error:'invalid format' status:400
+[INFO]: 28-07-2023 11:23:24 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:23:24 - error:'invalid format' status:400
+[INFO]: 28-07-2023 11:23:28 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:23:28 - error:'invalid format' status:400
+[INFO]: 28-07-2023 11:23:39 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:23:39 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 11:24:07 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:24:07 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 11:24:08 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:24:08 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 11:24:20 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:24:20 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 11:24:37 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 11:24:37 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 11:24:44 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 11:24:44 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 11:37:50 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:37:50 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 11:38:05 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 11:38:05 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 11:38:25 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 11:38:25 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 11:38:59 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:38:59 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 11:45:49 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:45:49 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 11:45:51 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:45:51 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 11:45:52 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:45:52 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 11:45:54 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:45:54 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 11:46:00 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:46:00 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 11:46:01 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:46:01 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 11:47:11 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:47:11 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 11:47:20 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:47:20 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 11:47:34 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 11:47:35 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 11:48:54 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:48:54 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 11:48:58 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 11:48:58 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 11:49:57 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:49:57 - error:'invalid format' status:400
+[INFO]: 28-07-2023 11:50:00 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:50:00 - error:'invalid format' status:400
+[INFO]: 28-07-2023 11:50:11 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:50:11 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 11:50:15 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:50:15 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 11:50:24 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 11:50:24 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 11:50:25 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 11:50:25 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 11:59:09 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 11:59:09 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 11:59:10 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 11:59:10 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 12:00:20 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 12:00:20 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 12:01:27 - login api called successfully
+[INFO]: 28-07-2023 12:01:27 - message:'Login Successful' status:200
+[INFO]: 28-07-2023 12:02:06 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 12:02:06 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 12:02:12 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 12:02:12 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 12:02:14 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 12:02:14 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 13:18:08 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 13:18:08 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 13:18:16 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 13:18:16 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 13:18:32 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 13:18:32 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 13:18:52 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 13:18:52 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 13:19:06 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 13:19:06 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 13:19:11 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 13:19:11 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 13:19:57 - GetTaskDetailsByUserID API called successfully
+[INFO]: 28-07-2023 13:23:06 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 13:23:06 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 13:23:34 - login api called successfully
+[INFO]: 28-07-2023 13:23:35 - message:'Login Successful' status:200
+[INFO]: 28-07-2023 13:23:36 - login api called successfully
+[ERROR]: 28-07-2023 13:23:36 - error:'login failed' status:400
+[INFO]: 28-07-2023 13:23:38 - login api called successfully
+[ERROR]: 28-07-2023 13:23:38 - error:'login failed' status:400
+[INFO]: 28-07-2023 13:23:40 - login api called successfully
+[INFO]: 28-07-2023 13:23:40 - message:'Login Successful' status:200
+[INFO]: 28-07-2023 13:29:42 - login api called successfully
+[INFO]: 28-07-2023 13:29:42 - message:'Login Successful' status:200
+[INFO]: 28-07-2023 13:30:01 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 13:30:01 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 13:45:08 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 13:45:08 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 13:46:16 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 13:46:16 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 14:50:16 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 14:50:16 - error: 'Invalid time format' status:400
+[INFO]: 28-07-2023 14:50:43 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 14:50:43 - error: 'Invalid time format' status:400
+[INFO]: 28-07-2023 14:50:45 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 14:50:45 - error: 'Invalid time format' status:400
+[INFO]: 28-07-2023 14:50:50 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 14:50:50 - error: 'Invalid time format' status:400
+[INFO]: 28-07-2023 14:50:51 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 14:50:51 - error: 'Invalid time format' status:400
+[INFO]: 28-07-2023 14:50:59 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 14:51:00 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 14:51:03 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 14:51:04 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 14:51:05 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 14:51:05 - error: 'Invalid time format' status:400
+[INFO]: 28-07-2023 14:51:14 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 14:51:14 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 15:08:04 - login api called successfully
+[INFO]: 28-07-2023 15:08:04 - message:'Login Successful' status:200
+[INFO]: 28-07-2023 15:08:19 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 15:08:19 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 15:08:23 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 15:08:23 - error: 'Invalid time format' status:400
+[INFO]: 28-07-2023 15:08:26 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 15:08:26 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 15:08:50 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 15:08:50 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 15:09:01 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 15:09:01 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 15:17:54 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 15:17:55 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 15:20:14 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 15:21:52 - GetTasksByUserAndDate API called successfully
+[ERROR]: 28-07-2023 15:21:52 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 15:22:29 - GetTasksByUserAndDate API called successfully
+[ERROR]: 28-07-2023 15:22:29 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 15:31:34 - GetTasksByUserAndDate API called successfully
+[ERROR]: 28-07-2023 15:31:34 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 15:31:42 - GetTasksByUserAndDate API called successfully
+[ERROR]: 28-07-2023 15:31:42 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 15:32:10 - GetTasksByUserAndDate API called successfully
+[ERROR]: 28-07-2023 15:32:10 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 15:33:46 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 15:33:46 - No tasks assigned on the given date
+[INFO]: 28-07-2023 15:38:12 - login api called successfully
+[INFO]: 28-07-2023 15:38:12 - message:'Login Successful' status:200
+[INFO]: 28-07-2023 15:38:26 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 15:38:26 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 15:38:28 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 15:38:28 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 15:55:22 - login api called successfully
+[INFO]: 28-07-2023 15:55:22 - message:'Login Successful' status:200
+[INFO]: 28-07-2023 15:57:02 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 15:57:02 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 16:03:56 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 16:03:56 - error: 'Invalid time format' status:400
+[INFO]: 28-07-2023 16:04:00 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 16:04:00 - error: 'Invalid time format' status:400
+[INFO]: 28-07-2023 16:04:02 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 16:04:02 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 16:04:04 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 16:04:05 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 16:10:20 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 16:10:56 - GetTasksByUserAndDate API called successfully
+[ERROR]: 28-07-2023 16:10:56 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 16:18:18 - GetTasksByUserAndDate API called successfully
+[ERROR]: 28-07-2023 16:18:18 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 16:21:05 - GetTasksByUserAndDate API called successfully
+[ERROR]: 28-07-2023 16:21:05 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 16:21:15 - GetTasksByUserAndDate API called successfully
+[ERROR]: 28-07-2023 16:21:15 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 16:23:17 - GetTasksByUserAndDate API called successfully
+[ERROR]: 28-07-2023 16:23:17 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 16:24:14 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 16:24:14 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 16:24:29 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 16:24:29 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 16:25:19 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 16:25:19 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 16:25:25 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 16:25:25 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 16:25:35 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 16:25:35 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 16:25:38 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 16:25:38 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 18:56:48 - GetTasksByUserAndDate API called successfully
+[ERROR]: 28-07-2023 18:56:48 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 18:56:49 - GetTasksByUserAndDate API called successfully
+[ERROR]: 28-07-2023 18:56:49 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 18:58:07 - login api called successfully
+[INFO]: 28-07-2023 18:58:08 - message:'Login Successful' status:200
+[INFO]: 28-07-2023 18:58:22 - GetTasksByUserAndDate API called successfully
+[ERROR]: 28-07-2023 18:58:22 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 18:58:41 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 18:59:24 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 18:59:24 - No tasks assigned on the given date
+[INFO]: 28-07-2023 18:59:38 - GetTasksByUserAndDate API called successfully
+[ERROR]: 28-07-2023 18:59:38 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 18:59:43 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:00:31 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:00:37 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:00:37 - No tasks assigned on the given date
+[INFO]: 28-07-2023 19:05:12 - GetTasksByUserAndDate API called successfully
+[ERROR]: 28-07-2023 19:05:12 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 19:06:55 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:08:12 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 19:08:12 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 19:08:16 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 19:08:16 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 19:08:19 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 19:08:19 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 19:08:22 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 19:08:22 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 19:08:24 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 19:08:24 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 19:08:26 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 19:08:26 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 19:08:36 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 19:08:36 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 19:08:40 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:10:39 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 19:10:39 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 19:10:44 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 19:10:44 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 19:10:50 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 19:10:50 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 19:10:57 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 19:10:58 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 19:11:03 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 19:11:03 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 19:11:11 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:12:46 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:21:53 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 19:21:53 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 19:22:02 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 19:22:02 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 19:22:14 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 19:22:15 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 19:22:22 - GetTasksByUserAndDate API called successfully
+[ERROR]: 28-07-2023 19:22:22 - error: failed to get tasks by user and date
+[INFO]: 28-07-2023 19:25:10 - GetTasksByUserAndDate API called successfully
+[ERROR]: 28-07-2023 19:25:11 - error: failed to get tasks by user and date
+[INFO]: 28-07-2023 19:26:08 - GetTasksByUserAndDate API called successfully
+[ERROR]: 28-07-2023 19:26:08 - error: failed to get tasks by user and date
+[INFO]: 28-07-2023 19:26:10 - GetTasksByUserAndDate API called successfully
+[ERROR]: 28-07-2023 19:26:10 - error: failed to get tasks by user and date
+[INFO]: 28-07-2023 19:28:20 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:28:20 - No tasks assigned on the given date
+[INFO]: 28-07-2023 19:28:40 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:28:40 - No tasks assigned on the given date
+[INFO]: 28-07-2023 19:28:43 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:29:00 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:30:20 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:30:32 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:30:58 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:31:11 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:32:30 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 19:32:30 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 19:32:41 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 19:32:42 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 19:32:45 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:33:24 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:33:45 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:33:50 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:33:55 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:34:42 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:35:17 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:35:18 - No tasks assigned on the given date
+[INFO]: 28-07-2023 19:35:23 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:35:23 - No tasks assigned on the given date
+[INFO]: 28-07-2023 19:35:35 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:35:35 - No tasks assigned on the given date
+[INFO]: 28-07-2023 19:35:42 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:35:48 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:35:48 - No tasks assigned on the given date
+[INFO]: 28-07-2023 19:39:02 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:39:02 - No tasks assigned on the given date
+[INFO]: 28-07-2023 19:39:15 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:39:30 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:39:39 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:39:50 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:40:04 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:40:58 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:41:46 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:41:57 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:43:20 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:43:52 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:45:38 - GetTasksByUserAndDate API called successfully
+[ERROR]: 28-07-2023 19:45:38 - error: failed to get tasks by user and date
+[INFO]: 28-07-2023 19:46:12 - GetTasksByUserAndDate API called successfully
+[ERROR]: 28-07-2023 19:46:12 - error: failed to get tasks by user and date
+[INFO]: 28-07-2023 19:46:22 - GetTasksByUserAndDate API called successfully
+[ERROR]: 28-07-2023 19:46:22 - error: failed to get tasks by user and date
+[INFO]: 28-07-2023 19:46:53 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:47:37 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:50:04 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:50:08 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:50:14 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:50:30 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:51:43 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:51:55 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:53:04 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:53:04 - No tasks assigned on the given date
+[INFO]: 28-07-2023 19:53:40 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 19:58:11 - GetTasksByUserAndDate API called successfully
+[ERROR]: 28-07-2023 19:58:11 - error: failed to get tasks by user and date
+[INFO]: 28-07-2023 20:07:51 - GetTasksByUserAndDate API called successfully
+[ERROR]: 28-07-2023 20:07:51 - error: failed to get tasks by user and date
+[INFO]: 28-07-2023 20:08:37 - GetTasksByUserAndDate API called successfully
+[ERROR]: 28-07-2023 20:08:37 - error: failed to get tasks by user and date
+[INFO]: 28-07-2023 20:09:28 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 20:11:02 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 20:11:02 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 20:11:07 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 20:11:07 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 20:11:09 -  TaskRemainder api called successfully
+[ERROR]: 28-07-2023 20:11:09 - error: 'Invalid date format' status:400
+[INFO]: 28-07-2023 20:14:10 - GetTasksByUserAndDate API called successfully
+[INFO]: 08-07-2023 20:15:27 -  TaskRemainder api called successfully
+[ERROR]: 08-07-2023 20:15:27 - error: 'Invalid date format' status:400
+[INFO]: 08-07-2023 20:15:43 -  TaskRemainder api called successfully
+[INFO]: 08-07-2023 20:15:43 - error:'Task added Successfully' status:200
+[INFO]: 16-07-2023 20:16:09 -  TaskRemainder api called successfully
+[INFO]: 16-07-2023 20:16:09 - error:'Task added Successfully' status:200
+[INFO]: 16-08-2023 20:16:37 - login api called successfully
+[INFO]: 16-08-2023 20:16:37 - message:'Login Successful' status:200
+[INFO]: 16-08-2023 20:16:46 -  TaskRemainder api called successfully
+[INFO]: 16-08-2023 20:16:47 - error:'Task added Successfully' status:200
+[INFO]: 21-07-2023 20:17:01 -  TaskRemainder api called successfully
+[INFO]: 21-07-2023 20:17:01 - error:'Task added Successfully' status:200
+[INFO]: 21-07-2023 20:17:12 - GetTasksByUserAndDate API called successfully
+[INFO]: 21-07-2023 20:27:09 - GetTasksByUserAndDate API called successfully
+[INFO]: 21-07-2023 20:28:28 - GetTasksByUserAndDate API called successfully
+[INFO]: 21-07-2023 20:28:54 - GetTasksByUserAndDate API called successfully
+[INFO]: 21-07-2023 20:29:40 -  TaskRemainder api called successfully
+[ERROR]: 21-07-2023 20:29:40 - error:'error in adding task details' status:400
+[INFO]: 21-07-2023 20:30:04 -  TaskRemainder api called successfully
+[INFO]: 21-07-2023 20:30:04 - error:'Task added Successfully' status:200
+[INFO]: 08-08-2023 20:30:26 -  TaskRemainder api called successfully
+[INFO]: 08-08-2023 20:30:26 - error:'Task added Successfully' status:200
+[INFO]: 08-07-2023 20:30:48 -  TaskRemainder api called successfully
+[INFO]: 08-07-2023 20:30:48 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 20:30:43 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 20:30:43 - No tasks assigned on the given date
+[INFO]: 28-07-2023 20:32:11 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 20:32:25 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 20:32:34 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 20:33:15 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 20:33:25 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 20:33:44 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 20:33:44 - No tasks assigned on the given date
+[INFO]: 28-07-2023 20:37:47 - login api called successfully
+[INFO]: 28-07-2023 20:37:47 - message:'Login Successful' status:200
+[INFO]: 28-07-2023 20:38:07 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 20:38:07 - error:'Task added Successfully' status:200
+[INFO]: 28-08-2023 20:39:22 - login api called successfully
+[INFO]: 28-08-2023 20:39:22 - message:'Login Successful' status:200
+[INFO]: 28-08-2023 20:39:34 -  TaskRemainder api called successfully
+[INFO]: 28-08-2023 20:39:34 - error:'Task added Successfully' status:200
+[INFO]: 19-08-2023 20:39:50 - login api called successfully
+[INFO]: 19-08-2023 20:39:50 - message:'Login Successful' status:200
+[INFO]: 19-08-2023 20:40:06 -  TaskRemainder api called successfully
+[INFO]: 19-08-2023 20:40:06 - error:'Task added Successfully' status:200
+[INFO]: 19-07-2023 20:41:17 - login api called successfully
+[INFO]: 19-07-2023 20:41:17 - message:'Login Successful' status:200
+[INFO]: 19-07-2023 20:41:37 -  TaskRemainder api called successfully
+[INFO]: 19-07-2023 20:41:38 - error:'Task added Successfully' status:200
+[INFO]: 19-07-2023 20:41:44 - GetTasksByUserAndDate API called successfully
+[INFO]: 19-07-2023 20:44:55 - GetTasksByUserAndDate API called successfully
+[INFO]: 19-07-2023 20:45:02 - GetTasksByUserAndDate API called successfully
+[INFO]: 19-07-2023 20:45:02 - No tasks assigned on the given date
+[INFO]: 19-07-2023 20:45:21 - GetTasksByUserAndDate API called successfully
+[INFO]: 19-07-2023 20:45:42 - GetTasksByUserAndDate API called successfully
+[INFO]: 19-07-2023 20:46:15 - GetTasksByUserAndDate API called successfully
+[INFO]: 19-07-2023 20:46:15 - No tasks assigned on the given date
+[INFO]: 19-07-2023 20:47:02 - GetTasksByUserAndDate API called successfully
+[INFO]: 19-07-2023 20:47:02 - No tasks assigned on the given date
+[INFO]: 19-07-2023 20:47:18 - GetTasksByUserAndDate API called successfully
+[INFO]: 19-07-2023 20:47:56 - GetTasksByUserAndDate API called successfully
+[INFO]: 19-07-2023 20:48:18 - GetTasksByUserAndDate API called successfully
+[INFO]: 19-07-2023 20:48:39 - GetTasksByUserAndDate API called successfully
+[INFO]: 19-07-2023 20:49:00 - GetTasksByUserAndDate API called successfully
+[INFO]: 19-07-2023 20:49:19 - login api called successfully
+[INFO]: 19-07-2023 20:49:19 - message:'Login Successful' status:200
+[INFO]: 19-07-2023 20:49:56 - GetTasksByUserAndDate API called successfully
+[INFO]: 19-07-2023 20:49:56 - No tasks assigned on the given date
+[INFO]: 19-07-2023 20:50:08 - GetTasksByUserAndDate API called successfully
+[INFO]: 19-07-2023 20:50:51 - GetTasksByUserAndDate API called successfully
+[INFO]: 19-07-2023 20:50:52 - No tasks assigned on the given date
+[INFO]: 19-07-2023 20:51:22 - GetTasksByUserAndDate API called successfully
+[INFO]: 19-07-2023 20:51:22 - No tasks assigned on the given date
+[INFO]: 19-07-2023 20:51:26 - GetTasksByUserAndDate API called successfully
+[INFO]: 19-07-2023 20:52:18 - GetTasksByUserAndDate API called successfully
+[INFO]: 19-07-2023 20:52:30 - GetTasksByUserAndDate API called successfully
+[INFO]: 19-07-2023 20:52:30 - No tasks assigned on the given date
+[INFO]: 19-07-2023 20:57:20 - GetTasksByUserAndDate API called successfully
+[INFO]: 19-07-2023 20:57:39 - GetTasksByUserAndDate API called successfully
+[INFO]: 19-07-2023 20:57:55 - GetTasksByUserAndDate API called successfully
+[INFO]: 19-07-2023 20:58:07 - GetTasksByUserAndDate API called successfully
+[INFO]: 19-07-2023 20:58:14 - GetTasksByUserAndDate API called successfully
+[INFO]: 19-07-2023 20:58:24 - GetTasksByUserAndDate API called successfully
+[INFO]: 19-07-2023 20:58:24 - No tasks assigned on the given date
+[INFO]: 19-07-2023 20:58:30 - GetTasksByUserAndDate API called successfully
+[INFO]: 19-07-2023 20:58:45 - GetTasksByUserAndDate API called successfully
+[INFO]: 19-07-2023 20:58:53 - GetTasksByUserAndDate API called successfully
+[INFO]: 19-07-2023 20:59:04 - GetTasksByUserAndDate API called successfully
+[INFO]: 19-07-2023 20:59:17 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 21:00:51 - login api called successfully
+[INFO]: 28-07-2023 21:00:51 - message:'Login Successful' status:200
+[INFO]: 28-07-2023 21:01:11 - login api called successfully
+[INFO]: 28-07-2023 21:01:11 - message:'Login Successful' status:200
+[INFO]: 28-07-2023 21:01:29 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 21:01:42 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 21:02:21 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 21:02:33 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 21:02:45 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 21:02:53 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 21:03:10 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 21:05:51 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 21:17:12 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 21:17:22 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 21:26:30 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 21:26:36 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 21:26:36 - No tasks assigned on the given date
+[INFO]: 28-07-2023 21:27:43 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 21:27:50 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 21:27:57 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 21:28:11 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 21:28:20 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 21:28:43 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 21:29:13 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 21:29:14 - No tasks assigned on the given date
+[INFO]: 28-07-2023 21:29:28 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 21:29:28 - No tasks assigned on the given date
+[INFO]: 28-07-2023 21:29:45 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 21:30:33 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 21:30:33 - No tasks assigned on the given date
+[INFO]: 28-07-2023 21:31:01 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 21:31:13 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 21:31:13 - No tasks assigned on the given date
+[INFO]: 28-07-2023 21:32:07 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 21:32:23 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 21:32:35 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:12:16 - Signup api called successfully
+[INFO]: 28-07-2023 22:12:16 - message:'sign up successfull' status:200
+[INFO]: 28-07-2023 22:12:19 - Signup api called successfully
+[ERROR]: 28-07-2023 22:12:19 - error:'user already exist' status:400
+[INFO]: 28-07-2023 22:12:23 - login api called successfully
+[ERROR]: 28-07-2023 22:12:23 - error:'login failed' status:400
+[INFO]: 28-07-2023 22:12:24 - login api called successfully
+[ERROR]: 28-07-2023 22:12:25 - error:'login failed' status:400
+[INFO]: 28-07-2023 22:12:26 - login api called successfully
+[ERROR]: 28-07-2023 22:12:26 - error:'login failed' status:400
+[INFO]: 28-07-2023 22:12:35 - login api called successfully
+[INFO]: 28-07-2023 22:12:35 - message:'Login Successful' status:200
+[INFO]: 28-07-2023 22:12:52 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 22:12:52 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 22:12:58 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 22:12:58 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 22:13:05 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 22:13:05 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 22:13:09 -  TaskRemainder api called successfully
+[INFO]: 28-07-2023 22:13:10 - error:'Task added Successfully' status:200
+[INFO]: 28-07-2023 22:13:43 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:14:09 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:14:16 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:14:28 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:14:28 - No tasks assigned on the given date
+[INFO]: 28-07-2023 22:14:51 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:14:51 - No tasks assigned on the given date
+[INFO]: 28-07-2023 22:15:11 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:15:11 - No tasks assigned on the given date
+[INFO]: 28-07-2023 22:21:15 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:21:25 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:23:17 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:23:22 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:23:23 - No tasks assigned on the given date
+[INFO]: 28-07-2023 22:25:03 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:25:03 - No tasks assigned on the given date
+[INFO]: 28-07-2023 22:25:04 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:25:05 - No tasks assigned on the given date
+[INFO]: 28-07-2023 22:25:05 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:25:05 - No tasks assigned on the given date
+[INFO]: 28-07-2023 22:25:06 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:25:06 - No tasks assigned on the given date
+[INFO]: 28-07-2023 22:25:07 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:25:07 - No tasks assigned on the given date
+[INFO]: 28-07-2023 22:25:07 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:25:07 - No tasks assigned on the given date
+[INFO]: 28-07-2023 22:25:08 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:25:08 - No tasks assigned on the given date
+[INFO]: 28-07-2023 22:25:09 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:25:09 - No tasks assigned on the given date
+[INFO]: 28-07-2023 22:25:49 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:25:56 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:25:56 - No status found
+[INFO]: 28-07-2023 22:26:04 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:26:04 - No status found
+[INFO]: 28-07-2023 22:26:07 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:26:07 - No status found
+[INFO]: 28-07-2023 22:26:21 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:26:27 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:26:35 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:26:46 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:26:53 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:27:09 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:27:21 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:27:21 - No tasks assigned on the given date
+[INFO]: 28-07-2023 22:29:23 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:29:23 - no status found 
+[INFO]: 28-07-2023 22:29:27 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:29:36 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:30:03 - GetTasksByUserAndDate API called successfully
+[INFO]: 28-07-2023 22:30:09 - GetTasksByUserAndDate API called successfully
