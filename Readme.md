@@ -1,14 +1,14 @@
-## General view about the Todo list  Project
+## General view about the Todo list Project
 
 This is a todo list project built using the fiber web framework in Golang. 
 
-The project provides RESTful APIs for user authorization posting tasks 
+The project provides RESTful APIs for user authorization in  posting tasks 
 
-The backend includes functionalities to sign up, login, task posting, update task , delete task
+The backend includes functionalities to sign up, login, task posting, update task , delete task, date filteration and status filteration
 
 ## Technology Stack
 
-The Job Site Real Time Exercise Task project is built using the following technologies:
+The Todo list Real Time Exercise Task project is built using the following technologies:
 
 - **Golang**: The backend is written in Go (Golang), a statically typed, compiled language.
 
@@ -34,10 +34,10 @@ The application will be accessible at `http://localhost:8010`.
 
 -> user can update and delete his task details
 
--> user can filter date and see his task details
+-> user can filter date and status to see his task details
 
 
-The following API endpoints are available in the Job Site project:
+The following API endpoints are available in this project:
 
 - **POST /signup**: Register a new user account.
 
@@ -49,5 +49,5 @@ The following API endpoints are available in the Job Site project:
 
 - **GET /deletetask/:id**: user can delete his task details (user Authorization required).
 
-- **PUT /gettasksbydate/:id**: user can use filter date and see his task details(Admin Authentication required).
+- **PUT /gettasksbydate/:id**: user can  filter date and status to see his task details(user Authorization required).
 

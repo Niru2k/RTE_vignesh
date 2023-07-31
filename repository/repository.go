@@ -2,9 +2,9 @@ package repository
 
 import (
 	//user defined package
+    "todo/models"
 
-	"todo/models"
-
+	//third party package
 	"gorm.io/gorm"
 )
 // database table creation 

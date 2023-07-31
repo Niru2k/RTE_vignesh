@@ -1,12 +1,12 @@
 package helper
 
 import (
+	//inbuilt package
 	"fmt"
 
+	//third party package
 	"github.com/joho/godotenv"
 )
-
-
 
 func Configure(filename string)error {
 	err := godotenv.Load(filename)

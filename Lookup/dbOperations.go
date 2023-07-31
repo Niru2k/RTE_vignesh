@@ -1,18 +1,18 @@
 package dbOperations
 
 import (
-	//user defined package(s)
+	//user defined package
 	"todo/models"
 	"todo/updates"
 
-	//Inbuild package(s)
+	//Inbuild package
 	"fmt"
 	"log"
 	"os"
 	"path"
 	"strings"
 
-	//Third party package(s)
+	//Third party package
 	"gorm.io/gorm"
 )
 

@@ -2,8 +2,7 @@ package handler
 
 import (
 	//built in package
-
-	"fmt"
+    "fmt"
 	"net/http"
 	"os"
 	"regexp"
@@ -18,8 +17,7 @@ import (
 	"todo/repository"
 
 	//third party package
-
-	"github.com/gofiber/fiber/v2"
+    "github.com/gofiber/fiber/v2"
 	"github.com/golang-jwt/jwt"
 	"golang.org/x/crypto/bcrypt"
 	"gorm.io/gorm"
@@ -110,10 +108,24 @@ func (Db Database) Login(c *fiber.Ctx) error {
 	log.Info("login api called successfully")
 	var login models.Information
 	if err := c.BodyParser(&login); err != nil {
-		log.Error("error:'Invalid Format' status:400")
+		log.Error("error:'Invalid Format' status:500")
 		return c.Status(http.StatusInternalServerError).JSON(map[string]interface{}{
 			"error":  "Invalid Format",
 			"status": 500,
+		})
+	}
+	if login.Email==""{
+		log.Error("error:'Invalid Format' status:400")
+		return c.Status(http.StatusBadRequest).JSON(map[string]interface{}{
+			"error":  "email field should not be empty",
+			"status": 400,
+		})
+	}
+	if login.Password==""{
+		log.Error("error:'Invalid Format' status:400")
+		return c.Status(http.StatusBadRequest).JSON(map[string]interface{}{
+			"error":  "password field should not be empty",
+			"status": 400,
 		})
 	}
 	//verify the email whether its already registered in the SignUp API or not
@@ -191,7 +203,14 @@ func (Db Database) TaskPosting(c *fiber.Ctx) error {
 	})
 	userid, _ := strconv.Atoi(claims["user_id"].(string))
 	post.User_id = uint(userid)
-
+	
+	if post.TASK_NAME == "" {
+		log.Error("error:'' status:400")
+		return c.Status(http.StatusBadRequest).JSON(map[string]interface{}{
+			"Error":  "task name field should not be empty.",
+			"status": 400,
+		})
+	}
 	if post.Status != "active" && post.Status != "completed" {
 		log.Error("error:'' status:400")
 		return c.Status(http.StatusBadRequest).JSON(map[string]interface{}{
@@ -199,6 +218,7 @@ func (Db Database) TaskPosting(c *fiber.Ctx) error {
 			"status": 400,
 		})
 	}
+
 	err := repository.TaskPosting(Db.Database, post)
 	if err != nil {
 		log.Error("error:'error in adding task details' status:400")
@@ -270,9 +290,9 @@ func (Db Database) UpdateTask(c *fiber.Ctx) error {
 	//update operation
 	err = repository.UpdateTask(Db.Database, task)
 	if err != nil {
-		log.Error("error: 'Task not found or user does not have access'")
+		log.Error("error: 'Task id not found'")
 		return c.Status(http.StatusNotFound).JSON(map[string]interface{}{
-			"error":  "Task not found or user does not have access",
+			"error":  "Task id not found",
 			"status": http.StatusNotFound,
 		})
 	}
@@ -325,10 +345,10 @@ func (Db Database) DeleteTask(c *fiber.Ctx) error {
 	// Perform the delete operation when the user have the permission
 	err = repository.DeleteTask(Db.Database, task)
 	if err != nil {
-		log.Error("error: failed to delete task")
-		return c.Status(http.StatusInternalServerError).JSON(map[string]interface{}{
-			"error":  "Failed to delete task",
-			"status": http.StatusInternalServerError,
+		log.Error("error: task id not found")
+		return c.Status(http.StatusNotFound).JSON(map[string]interface{}{
+			"error":  "task id not found",
+			"status": http.StatusNotFound,
 		})
 	}
 	log.Error("error:task deleted")
@@ -377,36 +397,48 @@ func (Db Database) GetTasksByUserAndDate(c *fiber.Ctx) error {
 		}
 		if len(tasks) == 0 {
 			log.Info("No tasks assigned on the given date")
+			c.Status(http.StatusNotFound)
 			return c.JSON(map[string]interface{}{
-				"status":  http.StatusOK,
+				"status":  404,
 				"message": "No tasks assigned on the given date",
 			})
 		}
 		return c.JSON(map[string]interface{}{
-			"status": http.StatusOK,
+			"status": 200,
 			"tasks":  tasks,
 		})
-	} else if startDate == "" && endDate == ""{
-		tasks, err := repository.GetTasksByStatus(Db.Database, userID, status)
-		if err != nil {
-			log.Error("error: no status ")
-			return c.Status(http.StatusInternalServerError).JSON(map[string]interface{}{
-				"error":  "no status",
-				"status": http.StatusInternalServerError,
-			})
-		}
-		if len(tasks) == 0 {
-			log.Info("no status found ")
+	} else if startDate == "" && endDate == "" {
+		if status=="active"||status=="completed"{
+			tasks, err := repository.GetTasksByStatus(Db.Database, userID, status)
+			if err != nil {
+				log.Error("error: no task for this status ")
+				return c.Status(http.StatusInternalServerError).JSON(map[string]interface{}{
+					"error":  "no task for this status",
+					"status": http.StatusInternalServerError,
+				})
+			}
+			if len(tasks) == 0 {
+	
+				log.Info("no task for this status")
+				c.Status(http.StatusNotFound)
+				return c.JSON(map[string]interface{}{
+					"status":  http.StatusNotFound,
+					"message": "no task for this status ",
+				})
+			}
 			return c.JSON(map[string]interface{}{
-				"status":  http.StatusOK,
-				"message": "no status found ",
+				"status": http.StatusOK,
+				"tasks":  tasks,
 			})
 		}
-		return c.JSON(map[string]interface{}{
-			"status": http.StatusOK,
-			"tasks":  tasks,
-		})
-	}else{
+		log.Info("no status found ")
+				c.Status(http.StatusNotFound)
+				return c.JSON(map[string]interface{}{
+					"status":  http.StatusNotFound,
+					"message": "no status found ",
+				})
+		
+	} else {
 		tasks, err := repository.GetTasksByUserAndDateAndStatus(Db.Database, userID, t1, t2, status)
 		if err != nil {
 			log.Error("error: failed to get tasks by user and date")
@@ -417,8 +449,9 @@ func (Db Database) GetTasksByUserAndDate(c *fiber.Ctx) error {
 		}
 		if len(tasks) == 0 {
 			log.Info("No status found")
+			c.Status(http.StatusNotFound)
 			return c.JSON(map[string]interface{}{
-				"status":  http.StatusOK,
+				"status":  http.StatusNotFound,
 				"message": "No status found",
 			})
 		}

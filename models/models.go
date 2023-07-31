@@ -1,5 +1,6 @@
 package models
 
+//third part package
 import "gorm.io/gorm"
 
 type Information struct {

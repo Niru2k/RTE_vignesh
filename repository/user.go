@@ -2,10 +2,12 @@ package repository
 
 import (
 	//user defined package
-
-	"time"
 	"todo/models"
 
+	//inbuilt package
+	"time"
+
+	//third party package
 	"gorm.io/gorm"
 )
 
@@ -42,7 +44,7 @@ func UpdateTask(Db *gorm.DB, task models.TaskDetails) error {
 }
 
 func DeleteTask(Db *gorm.DB, task models.TaskDetails) error {
-	return Db.Delete(task).Error
+	return Db.Delete(&task).Error
 }
 
 func GetTasksByUserAndDate(Db *gorm.DB, userID string, startDate, endDate time.Time) ([]models.TaskDetails, error) {
